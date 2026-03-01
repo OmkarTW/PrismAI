@@ -9,7 +9,7 @@ def intent_router(code: str, user_query: str) -> dict:
     Hybrid rule-based routing is handled in pipeline.
     """
 
-    model = "llama-3.1-8b-instant"
+    model = "llama-3.3-70b-versatile"
     max_tokens = 140
 
     prompt = f"""
